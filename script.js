@@ -1,6 +1,7 @@
 function minDate(dates) {
-  //write you code here
+  return dates.sort((a, b) => new Date(a) - new Date(b))[0];
 }
+
 
 // Do not change the code
 
